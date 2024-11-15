@@ -1,15 +1,5 @@
 {
     "Routes": {
-        "/": {
-            "type": "public"
-        },
-        "/about": {
-            "type": "public"
-        },
-        "/blog/:id": {
-            "type": "private",
-            "credentials": "user.role === 'admin'",
-            "redirectTo": "/login"
-        }
+       
     }
 }
